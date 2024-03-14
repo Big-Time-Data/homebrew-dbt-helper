@@ -6,11 +6,11 @@ require_relative "./custom_download_strategy.rb"
 class DbtHelper < Formula
   desc "dbt-helper"
   homepage "https://github.com/Big-Time-Data/dbt-helper"
-  version "0.0.12"
+  version "0.0.15"
   depends_on :macos
 
-  url "https://github.com/Big-Time-Data/dbt-helper/releases/download/v0.0.12/dbt-helper_darwin_amd64.tar.gz", using: GitHubPrivateRepositoryReleaseDownloadStrategy
-  sha256 "4ddbebb6278f1cfb72fa9f62f7992cc744578126aea70f9423835b92ff89b11e"
+  url "https://github.com/Big-Time-Data/dbt-helper/releases/download/v0.0.15/dbt-helper_darwin_amd64.tar.gz", using: GitHubPrivateRepositoryReleaseDownloadStrategy
+  sha256 "72132d797b4dd2c8cc5d0da6186fbb3521630b51eb3a908f7f50d517384a1428"
 
   def install
     bin.install "dbt-helper"
