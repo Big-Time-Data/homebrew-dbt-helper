@@ -5,11 +5,11 @@
 class DbtHelper < Formula
   desc "dbt-helper"
   homepage "https://github.com/Big-Time-Data/dbt-helper"
-  version "0.0.20"
+  version "0.0.21"
   depends_on :macos
 
-  url "https://github.com/Big-Time-Data/homebrew-dbt-helper/releases/download/v0.0.20/dbt-helper_darwin_amd64.tar.gz"
-  sha256 "44978c0497ddd14724f8c60575d033cbd8cd1c1e20b10be21c799a21b696c256"
+  url "https://github.com/Big-Time-Data/homebrew-dbt-helper/releases/download/v0.0.21/dbt-helper_darwin_amd64.tar.gz"
+  sha256 "4df4c06b4152b7f2098b810bfaf95881490540b7deaab2639d138b102b3a3a50"
 
   def install
     bin.install "dbt-helper"
